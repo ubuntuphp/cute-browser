@@ -10,11 +10,12 @@
 #include <QLineEdit>
 #include <QPushButton>
 #include <QWebInspector>
+#include "mainwindow.h"
 class tab : public QWidget
 {
     Q_OBJECT
 public:
-    explicit tab(QWidget *parent = 0);
+    explicit tab(MainWindow *parent = 0);
     QWidget getwidget();
 signals:
     

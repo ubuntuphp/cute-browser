@@ -1,5 +1,5 @@
 #include "tab.h"
-tab::tab(QWidget *parent) :
+tab::tab(MainWindow *parent) :
     QWidget(parent)
 {
     QVBoxLayout * layout = new QVBoxLayout(this);
