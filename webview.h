@@ -9,12 +9,11 @@
 #include <QWebFrame>
 #include <QWebElement>
 #include <QWebHitTestResult>
-#include "tab.h"
 class webview : public QWebView
 {
     Q_OBJECT
 public:
-    explicit webview(tab * parent);
+    explicit webview(QWidget *parent = 0);
 signals:
     void linkinnewtab(QString url);
 public slots:

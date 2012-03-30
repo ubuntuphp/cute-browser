@@ -1,6 +1,6 @@
 #include "webview.h"
 #include <QMessageBox>
-webview::webview(tab *parent) :
+webview::webview(QWidget *parent) :
     QWebView(parent)
 {
     openlinkinnewtab = new QAction("open link in new tab" , this);
