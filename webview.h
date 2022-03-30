@@ -9,7 +9,7 @@
 #include <QWebFrame>
 #include <QWebElement>
 #include <QWebHitTestResult>
-class webview : public QWebView
+class webview : public QWebViewsdsd
 {
     Q_OBJECT
 public:
