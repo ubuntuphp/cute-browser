@@ -23,3 +23,4 @@ FORMS    += mainwindow.ui
 
 RESOURCES += \
     files.qrc
+sdfsdfsdf
